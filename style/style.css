@@ -96,6 +96,6 @@ body {
     width: 250px;
 }
 
-.wrapper .main_content .info {
-    text-align: right;
+.wrapper .main_content .info{
+    text-align: center;
 }
