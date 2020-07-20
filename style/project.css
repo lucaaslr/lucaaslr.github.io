@@ -1,4 +1,4 @@
-.wrapper .project-container {
+ .project-container {
     width: 80%;
     overflow: hidden;
     background: skyblue;
@@ -9,14 +9,14 @@
     border: 1px solid gray;
 }
 
-.wrapper .project-container ul {
+.project-container ul {
     padding: 0px;
     margin: 0px;
     position: relative;
     left: 15px;
 }
 
-.wrapper .project-container ul li {
+.project-container ul li {
     list-style: none;
     float: left;
     width: 30%;
