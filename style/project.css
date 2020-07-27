@@ -1,26 +1,31 @@
- .project-container {
-    width: 80%;
-    overflow: hidden;
-    background: skyblue;
-    margin: 20px auto;
-    position: relative;
-    left: 100px;
-    padding: 70px;
-    border: 1px solid gray;
+ main {
+     width: 100%;
+     margin-left: 200px;
 }
 
-.project-container ul {
-    padding: 0px;
-    margin: 0px;
-    position: relative;
-    left: 15px;
+.main_content ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-items: center;
+    column-gap: 20px;    
 }
 
-.project-container ul li {
-    list-style: none;
-    float: left;
-    width: 30%;
-    height: 250px;
-    background: red;
-    margin: 20px 20px 0px 10px;
+.main_content ul li{
+    width: 300px;
+    height: 300px;
+    border: 5px solid #4b4276;
+    margin: 50px 0px 10px 0px;
+    background: #f1f1f1;
+    transition: 0.5s;
+}
+
+.main_content ul li:hover {
+    transform: scale(1.05);
+    box-shadow: 5px 5px 5px #000000;
+}
+
+.main_content ul li h2 {
+    width: 100%;
+    border-bottom: 5px solid #000000;
 }
