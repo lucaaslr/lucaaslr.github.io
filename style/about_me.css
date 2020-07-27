@@ -1,0 +1,50 @@
+main {
+    width: 100%;
+    margin-left: 200px;
+}
+
+.main_content .header {
+    padding: 20px;
+    background: #fff;
+    color: #717171;
+    border-bottom: 1px solid #e0e4e8;
+}
+
+.main_content .profile-photo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main_content .profile-photo img {
+    border-radius: 50%;
+    width: 250px;
+}
+
+.main_content .info .content{
+    margin: auto;
+    text-align: center;
+    width: 50%;
+}
+
+.main_content .info h2 {
+    margin: 20px 0px;
+}
+
+
+.main_content .info .title {
+    text-align: center;
+}
+
+.main_content .info .title h2 {
+    text-decoration: none;
+    margin: 0px;
+}
+
+.main_content .info .about_me p{
+    text-indent: 50px;
+}
+
+.main_content .info .work_info h3 {
+    margin: 20px 0px;
+}
