@@ -1,9 +1,31 @@
+/* HEADER CONTENT */
+
 header {
     width: 100%;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    /* Add font later */
+    color: #444;
+    margin: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
 .blog_wrapper {
     margin-left: 200px;
+}
+
+.blog_wrapper a:hover {
+    color: #006669;
 }
 
 .blog_wrapper .post_slider h1{
@@ -11,13 +33,13 @@ header {
 }
 
 .blog_wrapper .post_slider {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     position: relative;
 }
 
-.blog_wrapper .post_slider .prev {
+/* .blog_wrapper .post_slider .prev {
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 250px;
     font-size: 2em;
     color: #006699;
@@ -26,19 +48,18 @@ header {
 
 .blog_wrapper .post_slider .next {
     position: absolute;
-    top: 50%;
-    right: 250px;
+    top: 40%;
+    right:250px;
     font-size: 2em;
     color: #006699;
     cursor: pointer;
-}
+} */
 
 .blog_wrapper .post_slider .post_wrapper {
     width: 65%;
     height: 350px;
     margin: 0px auto;
     overflow: hidden;
-    border: 1px dashed red;
 }
 
 .blog_wrapper .post_slider .post_wrapper .post {
@@ -46,10 +67,24 @@ header {
     height: 350px;
     margin: 0px 10px;
     display: inline-block;
-    background: #05f7ff;
 }
 
 .blog_wrapper .post_slider .post_wrapper .post .slider_image {
     width: 100%;
     height: 200px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
+
+.blog_wrapper .post_slider .post_wrapper .post .post_info4{
+    height: 130px;
+    padding: 0px 10px;
+}
+
+/* MAIN CONTENT */
+
+/* main .content {
+    width: 90%;
+    margin: 30px auto 30px;
+    border: 1px solid red;
+} */
